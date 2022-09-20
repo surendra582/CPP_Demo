@@ -1,12 +1,8 @@
-#include<stdlib.h>
+#inlcude<stdlib.h>
 
 using namespace std;
 int main()
 {
-    #ifdef _WIN32
-        system("dir");
-    #else
-        system("ls");
-    #endif
+    ststem("dir");
     return 0;
 }
